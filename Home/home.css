@@ -1,0 +1,140 @@
+
+
+@font-face {
+    font-family: 'droid_arabic_naskhregular';
+    src: url('droidnaskh-regular-webfont.woff2') format('woff2'),
+         url('droidnaskh-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.WelcomeWrapper{  
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#Name{  
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 100px; 
+  color: black;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ChangeContent:after{
+	content: '';
+	animation: ChangeText 4s 1 linear;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color:black;
+}
+
+@keyframes ChangeText {
+	0% {content:'Bienvenue';}
+	50% {content: 'اهلاً';}
+
+}
+
+
+.hide{color: white}
+
+#transition-question1{
+  background-color: rgb(243,243,243);
+  width:1000px;
+  height:500px;
+  box-shadow: 10px 17px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 68px;
+
+}
+
+h3{font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px; 
+  color: black;
+  text-align: center;
+  padding-top:20px;
+  color:#FA425A;}
+
+#TitleQuestion1{  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px; 
+  color: black;
+  text-align: center;
+  padding-top:20px;
+  color:#FA425A;
+
+}
+
+#Question1{  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px; 
+  color: black;
+  text-align: center;
+  padding-top:20px;
+
+}
+
+#MotArabe{
+  text-align: center;
+  font-size:30px;
+}
+
+.Answer1{
+  text-align: right;
+  color:black;
+  display: block;
+  cursor: pointer;
+  font-size: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right:100px;
+  padding-bottom: 200px
+}
+
+
+#ButtonWrapper{
+  text-align: : center;
+}
+
+#Next{
+  text-decoration:none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: #111D61;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #BBB;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 17px;
+  text-align: center;
+  justify-content: center
+}
+
+#Next:hover { 
+  background: #FA425A;
+  width:250px;
+  -webkit-transition: .5s, max-width 1s;
+
+}
+
+
+

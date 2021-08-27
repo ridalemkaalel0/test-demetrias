@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            
+            <script src ="test.html"> </script>
+        <link rel="stylesheet" href="home.css"/>
+    </head>
+   
+    <body>
+
+        <h1 id='Name'>test </h1>
+
+        <div class='WelcomeWrapper'>
+         
+            <div><span class='ChangeContent'> </span></div>
+
+        </div>
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question1'>
+
+            <h1 id='TitleQuestion1'>Question 1</h1>
+            <h2 id='Question1'> Quelles sont les lettres isolées qui composent le mot suivant?</h2>
+            <h3 id='MotArabe'> كتاب</h3>
+
+            <div id='Question 1' class='Answer1'>
+
+                <label for="html">ك + ت + ب
+                <input type="radio" name='response' value='ك + ت + ب'></label><br>
+
+                <label for="html">ك + ت + ا + د
+                <input type="radio" name='response' value='ك + ت + ا + د'></label><br>
+
+                <label for="html">ك + ت + ا + ب
+                <input type="radio" name='response' value='ك + ت + ا + ب'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="home.js"> </script>
+        <script src ="Question2.html"> </script>
+
+    
+    </body>
+</html>

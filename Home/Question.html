@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <link rel="stylesheet" href="Question.css"/>
+    </head>
+   
+    <body> 
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question'>
+
+            <h1 id='TitleQuestion'>Question 2</h1>
+            <h2 id='Question'> Quel est le mot obtenu en attachant les lettres suivantes?</h2>
+            <h3 id='MotArabe'> م + ع + ب + ر</h3>
+
+            <div id='Answer'>
+
+                <label for="html">محبر
+                <input type="radio" name='response' value='محبر'></label><br>
+
+                <label for="html">معبر
+                <input type="radio" name='response' value='معبر'></label><br>
+
+                <label for="html">معبد
+                <input type="radio" name='response' value='معبد'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question3.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="Question.js"> </script>
+        <script src ="Question3.html"> </script>
+
+    
+    </body>
+</html>

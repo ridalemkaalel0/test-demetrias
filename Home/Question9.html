@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <link rel="stylesheet" href="Question.css"/>
+    </head>
+   
+    <body>
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question'>
+
+            <h1 id='TitleQuestion'>Question 9</h1>
+            <h2 id='Question'>Dans cette série de mots, lequel se répète deux fois ?</h2>
+            <h3 id='MotArabe'>درس ـ مدرِّس ـ يدَّرس ـ دروس ـ مدروس ـ مدرسة ـ ندرس ـ يدرس ـ درّس ـ يدَّرس</h3>
+
+            <div id='Answer'>          
+
+
+
+
+                <label for="html">يدَّرس
+                <input type="radio" name='response' value='يدَّرس'></label><br>
+
+                <label for="html">يدرس
+                <input type="radio" name='response' value='يدرس'></label><br>
+
+                <label for="html">درس
+                <input type="radio" name='response' value='درس'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question10.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="Question.js"> </script>
+        <script src ="Question10.html"> </script>
+
+    
+    </body>
+</html>

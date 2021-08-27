@@ -1,0 +1,136 @@
+
+
+@font-face {
+    font-family: 'droid_arabic_naskhregular';
+    src: url('droidnaskh-regular-webfont.woff2') format('woff2'),
+         url('droidnaskh-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  text-align: center
+}
+
+.hide{color: white}
+
+#FinalScore{font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px; 
+  color: black;
+  text-align: center;
+  padding-top:0px;
+  color:'black';}
+
+#transition-question{
+  position: relative;
+  background-color: rgb(243,243,243);
+  width:1000px;
+  height:500px;
+  box-shadow: 10px 17px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 68px;
+}
+
+#TitleQuestion{  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px; 
+  color: black;
+  text-align: center;
+  padding-top:20px;
+  color:#FA425A;
+
+}
+
+#Question{  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px; 
+  color: black;
+  text-align: center;
+  padding-top:20px;
+
+}
+
+#Question15{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px; 
+  color: black;
+  text-align: center;
+margin-bottom: 0px;
+padding-bottom:0px }
+
+#MotArabe{
+  text-align: center;
+  font-size:30px;
+}
+
+#Answer{
+  text-align: right;
+  color:black;
+  display: block;
+  cursor: pointer;
+  font-size: 40px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right:100px;
+  padding-bottom: 200px;
+  margin-top: 0px
+}
+
+#ArabicInput{
+  text-align: right;
+  color:black;
+  display: block;
+  cursor: pointer;
+  font-size: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right:100px;
+  padding-bottom: 200px;
+  margin-top: 0px
+}
+
+#ButtonWrapper{
+  text-align: : center;
+  top:70%;
+  left:70%;
+}
+
+#Next{
+  text-decoration:none;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: #111D61;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid #BBB;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size: 17px;
+  text-align: center;
+  justify-content: center
+}
+
+#Next:hover { 
+  background: #FA425A;
+  width:250px;
+  -webkit-transition: .5s, max-width 1s;
+
+}
+
+.test1{
+  padding-left: 150px
+}
+
+

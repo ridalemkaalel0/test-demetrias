@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <link rel="stylesheet" href="Question.css"/>
+    </head>
+   
+    <body>
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question'>
+
+            <h1 id='TitleQuestion'>Question 10</h1>
+            <h2 id='Question'>Quel est l’équivalent du mot télévision ? </h2>
+            <h3 id='MotArabe'></h3>
+
+            <div id='Answer'>   
+      
+  
+
+
+
+                <label for="html">تلفريك
+                <input type="radio" name='response' value='تلفريك'></label><br>
+
+                <label for="html">تلفون
+                <input type="radio" name='response' value='تلفون'></label><br>
+
+                <label for="html">تلفاز
+                <input type="radio" name='response' value='تلفاز'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question11.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="Question.js"> </script>
+        <script src ="Question11.html"> </script>
+
+    
+    </body>
+</html>

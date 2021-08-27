@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <link rel="stylesheet" href="Question.css"/>
+    </head>
+   
+    <body>
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question'>
+
+            <h1 id='TitleQuestion'>Question 7</h1>
+            <h2 id='Question'>Comment écrit-on le prénom Salima en arabe ?</h2>
+            <h3 id='MotArabe'></h3>
+
+            <div id='Answer'>     
+
+
+
+                <label for="html">سالِمة
+                <input type="radio" name='response' value='سالِمة'></label><br>
+
+                <label for="html">ساليمة
+                <input type="radio" name='response' value='ساليمة'></label><br>
+
+                <label for="html">ساليما
+                <input type="radio" name='response' value='ساليما'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question8.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="Question.js"> </script>
+        <script src ="Question8.html"> </script>
+
+    
+    </body>
+</html>

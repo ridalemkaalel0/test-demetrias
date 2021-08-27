@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test de Positionnement</title>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+            <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+            <link rel="stylesheet" href="Question.css"/>
+    </head>
+   
+    <body>
+
+        <p class='hide'>اهلاً</p>
+
+        <div id ='transition-question'>
+
+            <h1 id='TitleQuestion'>Question 13</h1>
+            <h2 id='Question'>Quel est le mot qui complète la phrase ?</h2>
+            <h3 id='MotArabe'>.....أنا سميرة، أنا من  </h3>
+
+            <div id='Answer'>               
+
+                <label for="html">المغرب
+                <input type="radio" name='response' value='المغرب'></label><br>
+
+                <label for="html">مغربي
+                <input type="radio" name='response' value='مغربي'></label><br>
+
+                <label for="html">مغربية
+                <input type="radio" name='response' value='مغربية'></label><br>
+
+                <div id='ButtonWrapper'>
+                <a href ='Question14.html' type="button" onclick="NextQuestion()" id='Next'> Suivant</a>
+                
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+
+
+        <script src ="Question.js"> </script>
+        <script src ="Question14.html"> </script>
+
+    
+    </body>
+</html>
