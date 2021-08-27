@@ -30,4 +30,4 @@ for (i=0; i<Table.rows.length;i++){
 var FinalScore = document.getElementById('FinalScore');
 FinalScore.innerHTML = 'Score: ' + c.toString()+'/'+(Table.rows.length-1).toString()
 
-//localStorage.clear()
+localStorage.clear()
