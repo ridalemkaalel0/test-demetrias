@@ -28,7 +28,7 @@ function ChangeGreeting(){
 		    (function fade(){
         var opacloader = parseFloat(elements[0].style.opacity);
 
-        (elements[0].style.opacity = opacloader - .1)<0.1?window.location.href="../Home/home.html":setTimeout(fade,10)})();
+        (elements[0].style.opacity = opacloader - .1)<0.1?window.location.href="/test-demetrias/Home/home.html":setTimeout(fade,10)})();
 },3);
 
 
